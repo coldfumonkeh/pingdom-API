@@ -30,7 +30,7 @@ Usage: The pingdom component accepts three required parameters in the constructo
 An optional fourth parameter can be set during component instantiation to determine
 if the returned data will be in string format or structural format (parsed / serialized) to assist with debugging.
 
-All methods and parameters within the monkehTweet component are documented and hints provided to assist with use.
+All methods and parameters within the pingdom component are documented and hints provided to assist with use.
 
 --->
 
@@ -44,22 +44,5 @@ All methods and parameters within the monkehTweet component are documented and h
 						applicationKey	=	'< applicationkey >',
 						parse			=	true
 					) />
-
-<!---checkid=316843--->
-
-<!--- contact 171740 --->
-
-<!--- report id 136681 --->
-
-<!--- shared report id 29a665cc --->
-
-<!--- analysis id 38347894 --->
-
-<cfset stuParams = {
-
-				} />
-				
-<cfdump var="#objPingdom.makeSingleTest(host='coldfumonkeh.com',type='http')#">
-
 
 

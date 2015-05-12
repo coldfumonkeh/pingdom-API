@@ -1,0 +1,29 @@
+{
+  "name" : "Pingdom API",
+  "slug" : "pingdom-api",
+  "version" : "0.0.8.0",
+  "author" : "Matt Gifford <matt@monkehworks.com>",
+  "location" : "https://github.com/coldfumonkeh/pingdom-API",
+  "directory" : "",
+  "createPackageDirectory" : "false",
+  "Homepage" : "https://github.com/coldfumonkeh/pingdom-API",
+  "Documentation" : "https://github.com/coldfumonkeh/pingdom-API",
+  "Repository" : {
+    "type" : "git", "URL" : "https://github.com/coldfumonkeh/pingdom-API"
+  },
+  "Bugs" : "https://github.com/coldfumonkeh/pingdom-API/issues",
+  "shortDescription" : "A ColdFusion Wrapper written to interact with the Pingdom Monitoring API.",
+  "keywords" : [ "monitoring", "api" ],
+  "private" : "false",
+  "engines" : [
+    { "type" : "railo", "version" : ">=4.1.x" },
+    { "type" : "adobe", "version" : ">=9.0.0" }
+  ],
+  "defaultEngine" : "railo",
+  "defaultPort" : "8085",
+  "License" : [
+    { "type" : "MIT", "URL" : "" }
+  ],
+  "Contributors" : [ {"name": "Matt Gifford", "url": "https://www.monkehworks.com"} ],
+  "ignore" : [ "installation/*", "README.md" ]
+}
